@@ -4,4 +4,4 @@ Implementation of Object-Contextual Representations for Semantic Segmentation (h
 
 ## Usage
 
-> python -m torch.distributed.launch --nproc_per_node=4 --master_porp=8890 train.py --batch 4 [ADE20K PATH]
+> python -m torch.distributed.launch --nproc_per_node=4 --master_port=8890 train.py --batch 4 [ADE20K PATH]
